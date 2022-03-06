@@ -102,7 +102,7 @@ textarea {
 
 table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 80%;
+    width: fit-content;
     border: 3px solid rgb(148, 88, 9);
     border-collapse: collapse;
 }
@@ -250,9 +250,9 @@ th, td {
 
 
 .baker-orders{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
 }
+
