@@ -13,17 +13,14 @@ header{
 footer{
    
     /*width: 96.8%;*/
-
     height: 60px;
-    
-    
     display: flex;
     padding: 30px;
 
     justify-content: space-between;
     
     align-items: center;
-    background-color: pink;
+    background-color: #ffb24d;
     
 }
 
