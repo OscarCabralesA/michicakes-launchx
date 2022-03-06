@@ -1,0 +1,258 @@
+*{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    margin: 0;
+}
+
+header{
+    background-color: rgb(241, 226, 229);
+    height: 110px;
+    position: sticky;
+    top: 0;
+}
+
+footer{
+   
+    /*width: 96.8%;*/
+
+    height: 60px;
+    
+    
+    display: flex;
+    padding: 30px;
+
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: pink;
+    
+}
+
+.footer-container{
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-item{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(53, 52, 51);
+
+
+}
+
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+a{
+    color: inherit;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border: 0;
+    border-radius: 12%;
+    background-color: rgb(228, 200, 140);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(224, 186, 104);
+
+}
+
+
+.input-text-etc{
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 70px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    border: 3px solid rgb(148, 88, 9);
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(148, 88, 9);
+}
+
+
+
+.logoimg{
+    width: 250px;
+    height: 250px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-element{
+    margin: 15px;
+    padding: 10px;
+    color: brown;
+    font-size: 20px;
+}
+
+.navbar-element:visited{
+    color: brown;
+}
+.navbar-element:hover{
+    background-color: beige;
+}
+
+
+.grid-container {
+    /*border:1px solid rgb(53, 52, 51);*/
+    display: flex;
+    height: fit-content;
+    width: 60%;
+    /*margin: 10%;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    transform: translate(33%);
+  }
+  
+.grid-item{
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.grid-item:hover{
+    background-color:rgb(252, 239, 252);
+    box-shadow: inset;
+}
+
+.cake-img{
+    width: 200px;
+    height: 185px;
+}
+
+.cake-name{
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cake-name:hover{
+    text-decoration: underline orange;
+}
+
+.cake-cost{
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.map-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 25px;
+}
+
+.footer-img:hover{
+    width: 42px;
+    height: 42px;
+}
+
+.left-align{
+    justify-content: left;
+}
+
+.right-align{
+    justify-content: right;
+}
+
+
+
+.client-form-order{
+    /*border: 1px solid black;*/
+
+    display: flex;
+    width: 40%;
+    position: relative;
+    left: 25%;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+.client-form-data{
+    /*border: 1px solid gray;*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 1.5%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.info-sentence{
+    color: gray;
+    font-size: 14px;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.baker-orders{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}

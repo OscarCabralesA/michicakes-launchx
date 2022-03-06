@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Michicakes - Pedido</title>
+</head>
+<body>
+    <center>
+        <a href="./index.html">
+            <img src="../img/MICHICAKEs-no-backround.png"  alt="Logo Michicakes"  class="logoimg">
+        </a>
+    </center>
+    <ul class="navbar">
+        <a href="./index.html"><li class="navbar-element">INICIO</li></a>
+        <a href="./pedido-cliente.html"><li class="navbar-element">HACER PEDIDO</li></a>
+        <a href="./pedidos-recientes.html"><li class="navbar-element">PEDIDOS RECIENTES</li></a>
+        <a href="./stock-disponible.html"><li class="navbar-element">STOCK</li></a>
+    </ul>
+    
+    <br>
+    <h2>Hacer Pedido</h2>
+   
+    <form  action="post">
+        <section class="client-form-order">
+            <div class="client-form-data">
+                <label for="name">NOMBRE </label><br>
+                <input class="input-text-etc" type="text" name="name" id="name"><br><br>
+                <label for="phone">TELÉFONO </label><br>
+                <input class="input-text-etc" type="number" name="phone" id="phone"><br><br>
+                <label for="email">CORREO </label><br>
+                <input class="input-text-etc" type="email" name="email" id="email"><br>
+                
+                <br>
+                <label for="cake-message">Escribir mensaje en el pastel <br>(opcional)</label><br>
+                <textarea name="cake-message" id="cake-message" cols="20" rows="3"></textarea>
+
+            </div>
+
+            
+                
+            <div class="client-form-data">
+                <h3>Elige tu pastel</h3>
+                <p class="info-sentence">Puedes seleccionar más de un sabor para combinarlos</p>
+                <!--
+                    <select name="cake-list" id="cake-list">
+                        <option value="pastel-red-velvet">RED VELVET</option>
+                        <option value="pastel-chocolate">CHOCOLATE</option>
+                        <option value="pastel-moka">MOKA</option>
+                        <option value="pastel-nuez">NUEZ</option>
+                        <option value="pastel-queso">QUESO</option>
+                        <option value="pastel-zanahoria">ZANAHORIA</option>
+                        <option value="pastel-besos-fresa">BESOS DE FRESA</option>
+                        <option value="pastel-yogurt-fresas">YOGURT DE FRESA</option>
+                    </select>
+                -->
+
+                <br>
+                <input type="checkbox" name="pastel-red-velvet" id="pastel-red-velvet" value="pastel-red-velvet">
+                <label for="pastel-red-velvet">RED VELVET</label>
+                <br>
+                <input type="checkbox" name="pastel-chocolate" id="pastel-chocolate" value="pastel-chocolate">
+                <label for="pastel-chocolate">CHOCOLATE</label>
+                <br>
+                <input type="checkbox" name="pastel-moka" id="pastel-moka" value="pastel-moka">
+                <label for="pastel-moka">MOKA</label>
+                <br>
+                <input type="checkbox" name="pastel-nuez" id="pastel-nuez" value="pastel-nuez">
+                <label for="pastel-nuez">NUEZ</label>
+                <br>
+                <input type="checkbox" name="pastel-queso" id="pastel-queso" value="pastel-queso">
+                <label for="pastel-queso">QUESO</label>
+                <br>
+                <input type="checkbox" name="pastel-zanahoria" id="pastel-zanahoria" value="pastel-zanahoria">
+                <label for="pastel-zanahoria">ZANAHORIA</label>
+                <br>
+                <input type="checkbox" name="pastel-besos-fresa" id="pastel-besos-fresa" value="pastel-besos-fresa">
+                <label for="pastel-besos-fresa">BESOS DE FRESA</label>
+                <br>
+                <input type="checkbox" name="pastel-yogurt-fresas" id="pastel-yogurt-fresas" value="pastel-yogurt-fresas">
+                <label for="pastel-yogurt-fresas">YOGURT DE FRESA</label>
+                <br>
+                <br>
+                <h3>Elige la decoración</h3>
+                <p class="info-sentence">Puedes seleccionar más de una decoración</p>
+                <br>
+                <input type="checkbox" name="figuras-betun" id="figuras-betun" value="figuras-betun">
+                <label for="figuras-betun">Figuras con betún</label>
+                <br>
+                <input type="checkbox" name="chocolate-rallado" id="chocolate-rallado" value="chocolate-rallado">
+                <label for="chocolate-rallado">Chocolate rallado</label>
+                <br>
+                <input type="checkbox" name="Perlas" id="perlas" value="perlas">
+                <label for="perlas">Perlas</label>
+                <br>
+                <input type="checkbox" name="fresas" id="fresas" value="fresas">
+                <label for="fresas">Fresas</label>
+                <br>
+                <input type="checkbox" name="uvas" id="uvas" value="uvas">
+                <label for="uvas">Uvas</label>
+                <br>
+                
+            </div>
+            <section class="client-form-data">
+                <label for="additional-request">Petición adicional</label><br>
+                <textarea name="additional-request" id="additional-request" cols="80" rows="3"></textarea>
+                <br><br>
+                <button type="submit" name="submit-cake-order" id="submit-cake-order">HACER PEDIDO</button>
+            </section>
+            
+        </section>
+    </form>
+
+
+    <div class="footer-container">
+        <footer>
+            <div class="left-align">
+                <img class="footer-img" src="../img/whatsapp-icon.png" alt="Logo teléfono">
+                <p>33-95-64-10-70</p>
+                <p>SERVICIO A DOMICILIO EN LA ZMG <br> LOS 365 DÍAS DEL AÑO</p>
+            </div>
+            <div>
+            </div>
+            <div class="right-align">
+                <a href="#">
+                    <img class="footer-img" src="../img/facebook-icon.png" alt="Logo facebook">
+                </a>
+                <a href="#">
+                    <img class="footer-img" src="../img/instagram-icon.png" alt="Logo instagram">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
